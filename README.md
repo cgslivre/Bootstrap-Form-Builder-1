@@ -1,4 +1,4 @@
-# Form Builder
+# Bootstrap Form Builder
 
 Form Builder is php 5 class to create html5 form fot Bootstrap, supports :
 
