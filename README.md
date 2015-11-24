@@ -25,4 +25,5 @@ Form Builder is php 5 class to create Twitter Bootstrap html5 form, supports :
 - htmlarea
 - paragraph
 - section
+- html
 - button
