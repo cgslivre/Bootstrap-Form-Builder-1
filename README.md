@@ -2,28 +2,43 @@
 
 Form Builder is php 5 class to create Twitter Bootstrap html5 form, supports :
 
-- input
-  - text, password, email, tel, search
-  - radio
-  - checkbox
-  - file
-  - number, range
-  - color
-  - date, datetime, datetime-local, time, month, week
-  - url
-  - hidden
-  - button, submit, reset
+- form (name, action, method=POST, [onsubmit, attribute])
 
-- datalist
+- input [value, class, style, pattern, attributes, after, tip]
+  - text (name, label, required, [datalist])
+  - password (name, label, required)
+  - email (name, label, required)
+  - tel  (name, label, required)
+  - search (name, label, required)
+  - radio (name, label, required, options, selected, type=vertical|horizontal)
+  - checkbox (name, label, required, options, selected, type=vertical|horizontal)
+  - file (name, label, required, accept)
+  - number (name, label, required)
+  - range (name, label, required, [min, max, step])
+  - color (name, label, required)
+  - date (name, label, required, format)
+  - url (name, label, required, format)
+  - hidden (name)
+  - button (id, value)
+  - submit (id, value)
+  - reset  (id, value)
+  - image (src, [width, height])
+
+- datalist (id, options)
  
-- select
-  - single
-  - multiple
-  - combo
+- select [class, style, tip]
+  - single  (name, label, required, options, [selected])
+  - multiple  (name, label, required, options, [selected])
 
 - fieldset
-- htmlarea
-- paragraph
-- section
-- html
-- button
+  - start (id, label)
+  - end
+  
+- form-control (id, label)
+
+- html (code)
+
+- button  (id, value)
+
+
+
