@@ -1,6 +1,6 @@
 # Bootstrap Form Builder
 
-Form Builder is php 5 class to create html5 form fot Bootstrap, supports :
+Form Builder is php 5 class to create Twitter Bootstrap html5 form, supports :
 
 - input
   - text, password, email, tel, search
