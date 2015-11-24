@@ -3,36 +3,22 @@
 Form Builder is php 5 class to create html5 form, supports :
 
 - input
-  - text
+  - text, password, email, tel, search
   - radio
   - checkbox
-  - password
   - file
-  - number
-  - range
-  - email
-  - search
-  - tel
+  - number, range
   - color
-  - month
-  - week
-  - date
-  - datetime
-  - datetime-local
+  - date, datetime, datetime-local, time, month, week
   - url
-  - button
-  - submit
-  - reset
-  
-- button
+  - button, submit, reset
 
 - select
   - single
   - multiple
   - combo
 
-- paragraphe
-
 - fieldset
-
 - htmlarea
+- paragraph
+- button
