@@ -20,8 +20,8 @@ Form Builder is php 5 class to create Twitter Bootstrap html5 form, supports :
   - url (name, label, required, format)
   - hidden (name)
   - button (id, value)
-  - submit (id, value)
-  - reset  (id, value)
+  - submit (value)
+  - reset  (value)
   - image (src, [width, height])
 
 - datalist (id, options)
@@ -33,7 +33,7 @@ Form Builder is php 5 class to create Twitter Bootstrap html5 form, supports :
 - textarea (name, label, required) [class, style, tip, value]
 
 - fieldset
-  - start (id, label)
+  - start (id, legend)
   - end
   
 - form-control (id, label)
@@ -46,6 +46,11 @@ Form Builder is php 5 class to create Twitter Bootstrap html5 form, supports :
     $form = new BootstrapForm('my_form', "Form title");
     $form->text('Login', 'Your login', true)->attr('placeholder', 'Login');
     $form->password('Password', '', true)->pattern('A-Z', "please enter upper value");
+    $form->submit('Send my form');
     $form->render();
 ```
 
+
+### Thanks
+
+http://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=supported-from-controls
