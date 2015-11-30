@@ -1,0 +1,27 @@
+{
+    "name": "h2lsoft/bootstrap-form",
+    "description": "Bootstrap Form Builder is php class to create Twitter Bootstrap html5 form",
+    "homepage":"https://github.com/h2lsoft/Bootstrap-Form-Builder",
+    "type": "library",
+    "keywords": ["php","template","bootstrap","mvc","form"],
+    "license":"MIT",
+
+    "authors":[
+        {
+            "name":"H2LSOFT",
+            "homepage":"http://www.h2lsoft.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.2.7"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "BootstrapForm" : "lib/"
+        }
+    }
+
+
+}
